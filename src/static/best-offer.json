@@ -1,0 +1,40 @@
+{
+  "title": "Best offers for you",
+  "data": [
+    {
+      "id": "1539059",
+      "imageId": "rng/md/carousel/production/7c92c3744ea5da6c0204cb8ec2918410",
+      "image_link": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/7c92c3744ea5da6c0204cb8ec2918410",
+      "action": {
+        "link": "https://www.swiggy.com/collections/99942?collection_id=99942&type=rcv2",
+        "text": "Gourmet LN/DN",
+        "type": "WEBLINK"
+      },
+      "entityType": "BANNER",
+      "accessibility": {
+        "altText": "GOURMET lunch",
+        "altTextCta": "Order now"
+      },
+      "entityId": "swiggy://collectionV2?collection_id=99942",
+      "frequencyCapping": {}
+    },
+    {
+      "id": "1524700",
+      "imageId": "rng/md/carousel/production/967140f5e000b2f1e35f54a7c965e7dc",
+      "image_link": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/967140f5e000b2f1e35f54a7c965e7dc",
+      "action": {
+        "link": "swiggy://fusion-landing?id=theCokepage&show_location=true",
+        "text": "Coke",
+        "type": "WEBLINK"
+      },
+      "entityType": "BANNER",
+      "accessibility": {
+        "altText": "Coke",
+        "altTextCta": "Order Now"
+      },
+      "entityId": "swiggy://fusion-landing?id=theCokepage&show_location=true",
+      "frequencyCapping": {},
+      "isManualAds": true
+    }
+  ]
+}

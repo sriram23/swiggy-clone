@@ -1,0 +1,17 @@
+.best-offer-container {
+    .title-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .best-offers-section {
+        height: 17rem;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

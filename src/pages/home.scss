@@ -1,0 +1,21 @@
+html, body {
+  margin: unset;
+  padding: unset;
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  .header-section {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+  }
+  .main-section {
+    width: 90rem;
+    @media screen and (max-width:1440) {
+      width: 90%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.food-items-card-container {
+    flex-shrink: 0;
+    width: 10rem !important;
+    margin: 1rem;
+    .food-items-link {
+        min-width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}

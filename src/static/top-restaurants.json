@@ -1,0 +1,1306 @@
+{
+  "title": "Top restaurant chains in Coimbatore",
+  "gridElements": {
+    "infoWithStyle": {
+      "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+      "restaurants": [
+        {
+          "info": {
+            "id": "63640",
+            "name": "Akshaya Park Restaurant",
+            "cloudinaryImageId": "cs4wx6q3iijtfosxue7n",
+            "locality": "Mettupalayam Road",
+            "areaName": "Thudiyalur",
+            "costForTwo": "₹200 for two",
+            "cuisines": ["Indian", "Chinese"],
+            "avgRating": 4.3,
+            "parentId": "7153",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 34,
+              "lastMileTravel": 3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "34 mins",
+              "lastMileTravelString": "3.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 22:30:00",
+              "opened": true
+            },
+            "badges": {
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "",
+                        "fontColor": "#7E808C",
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/akshaya-park-restaurant-mettupalayam-road-thudiyalur-coimbatore-63640",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "130193",
+            "name": "Domino's Pizza",
+            "cloudinaryImageId": "nwlbdiasm74wahpifhye",
+            "locality": "Sreevatsa Garden",
+            "areaName": "Thudiyalur",
+            "costForTwo": "₹400 for two",
+            "cuisines": ["Pizzas", "Italian", "Pastas", "Desserts"],
+            "avgRating": 4.4,
+            "parentId": "2456",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 25,
+              "serviceability": "SERVICEABLE",
+              "slaString": "25 mins",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 22:55:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "₹150 OFF",
+              "subHeader": "ABOVE ₹299",
+              "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/dominos-pizza-sreevatsa-garden-thudiyalur-coimbatore-130193",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "337623",
+            "name": "KFC",
+            "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+            "locality": "Mettupalayam Road",
+            "areaName": "Thudiyalur",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Burgers",
+              "Biryani",
+              "American",
+              "Snacks",
+              "Fast Food"
+            ],
+            "avgRating": 4.3,
+            "parentId": "547",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 20,
+              "lastMileTravel": 4.6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "20 mins",
+              "lastMileTravelString": "4.6 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-25 00:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/kfc-mettupalayam-road-thudiyalur-coimbatore-337623",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "63636",
+            "name": "Yummy Restaurant",
+            "cloudinaryImageId": "pfmlkpqt5bbeufqqkmkt",
+            "locality": "Mettupalayam Road",
+            "areaName": "Kavundampalayam",
+            "costForTwo": "₹200 for two",
+            "cuisines": ["Indian"],
+            "avgRating": 4.5,
+            "parentId": "5051",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 27,
+              "lastMileTravel": 6.9,
+              "serviceability": "SERVICEABLE",
+              "slaString": "27 mins",
+              "lastMileTravelString": "6.9 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "15% OFF",
+              "subHeader": "ABOVE ₹700",
+              "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/yummy-restaurant-mettupalayam-road-kavundampalayam-coimbatore-63636",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "431523",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+            "locality": "Mettupalayam Road",
+            "areaName": "Thudiyalur",
+            "costForTwo": "₹350 for two",
+            "cuisines": ["Pizzas"],
+            "avgRating": 4.3,
+            "parentId": "721",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 29,
+              "lastMileTravel": 4.6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "29 mins",
+              "lastMileTravelString": "4.6 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-25 00:59:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "ITEMS",
+              "subHeader": "AT ₹179"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/pizza-hut-mettupalayam-road-thudiyalur-coimbatore-431523",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "440603",
+            "name": "EatFit - All Things Healthy",
+            "cloudinaryImageId": "6126c9b45de2cb222405c1af8a321e74",
+            "locality": "SRP Nagar",
+            "areaName": "Saibaba Colony",
+            "costForTwo": "₹270 for two",
+            "cuisines": [
+              "Chinese",
+              "Healthy Food",
+              "Tandoor",
+              "Pizzas",
+              "North Indian",
+              "Thalis",
+              "Biryani"
+            ],
+            "avgRating": 4.3,
+            "parentId": "76139",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 35,
+              "lastMileTravel": 9.3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "35 mins",
+              "lastMileTravelString": "9.3 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:59:00",
+              "opened": true
+            },
+            "badges": {
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "brand",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "",
+                        "fontColor": "#7E808C",
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "brand"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "ITEMS",
+              "subHeader": "AT ₹179"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/eatfit-all-things-healthy-srp-nagar-saibaba-colony-coimbatore-440603",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "61501",
+            "name": "Hyderabad Biriyani Hotel",
+            "cloudinaryImageId": "upaeed1jlrygqaxxuosd",
+            "locality": "Nagapattinam",
+            "areaName": "Kavundampalayam",
+            "costForTwo": "₹200 for two",
+            "cuisines": ["Hyderabadi", "Biryani"],
+            "avgRating": 4.4,
+            "parentId": "4969",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 21,
+              "lastMileTravel": 4.7,
+              "serviceability": "SERVICEABLE",
+              "slaString": "21 mins",
+              "lastMileTravelString": "4.7 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 21:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/hyderabad-biriyani-hotel-nagapattinam-kavundampalayam-coimbatore-61501",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "51024",
+            "name": "CakeBee",
+            "cloudinaryImageId": "65b0afdfd0e1b35d8bd8784d9ad5f265",
+            "locality": "Bharathi Park",
+            "areaName": "Saibaba Colony",
+            "costForTwo": "₹250 for two",
+            "cuisines": ["Bakery", "Continental", "Italian"],
+            "avgRating": 4.5,
+            "parentId": "22417",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 32,
+              "lastMileTravel": 9.4,
+              "serviceability": "SERVICEABLE",
+              "slaString": "32 mins",
+              "lastMileTravelString": "9.4 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-25 00:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/cakebee-bharathi-park-saibaba-colony-coimbatore-51024",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "60958",
+            "name": "Denmarrk Drive-Inn Restaurant",
+            "cloudinaryImageId": "kotlytcyvkm5c5sl86mk",
+            "locality": "Sathy Road",
+            "areaName": "Ganapathy",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+              "Tandoor",
+              "North Indian",
+              "Chinese",
+              "Kebabs",
+              "Juices",
+              "Arabian"
+            ],
+            "avgRating": 4.3,
+            "parentId": "4907",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 38,
+              "lastMileTravel": 10.8,
+              "serviceability": "SERVICEABLE",
+              "slaString": "38 mins",
+              "lastMileTravelString": "10.8 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "₹125 OFF",
+              "subHeader": "ABOVE ₹199",
+              "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/denmarrk-drive-inn-restaurant-sathy-road-ganapathy-coimbatore-60958",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "676829",
+            "name": "Covai Anganan Biriyani House",
+            "cloudinaryImageId": "375f8d233613b205ab37f42d110edc88",
+            "locality": "sathy road",
+            "areaName": "Coi Ganapathy",
+            "costForTwo": "₹200 for two",
+            "cuisines": ["South Indian", "Biryani", "Andhra", "Desserts"],
+            "avgRating": 4.1,
+            "parentId": "230662",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "500+",
+            "sla": {
+              "deliveryTime": 39,
+              "lastMileTravel": 11.1,
+              "serviceability": "SERVICEABLE",
+              "slaString": "39 mins",
+              "lastMileTravelString": "11.1 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/covai-anganan-biriyani-house-sathy-road-coi-ganapathy-coimbatore-676829",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "50457",
+            "name": "Burger King",
+            "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+            "locality": "Prozone Mall",
+            "areaName": "Saravanampatti",
+            "costForTwo": "₹350 for two",
+            "cuisines": ["Burgers", "American"],
+            "avgRating": 4.3,
+            "parentId": "166",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 41,
+              "lastMileTravel": 11.6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "41 mins",
+              "lastMileTravelString": "11.6 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-25 00:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "60% OFF",
+              "subHeader": "UPTO ₹120"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/burger-king-prozone-mall-saravanampatti-coimbatore-50457",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "654259",
+            "name": "Istah Shawarmas",
+            "cloudinaryImageId": "0a37282845f641a5995d866285767803",
+            "locality": "Dr Rajendra Prasad Road",
+            "areaName": "Gandhipuram",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+              "Mediterranean",
+              "Snacks",
+              "Biryani",
+              "Grill",
+              "Kebabs",
+              "Arabian",
+              "Lebanese",
+              "Beverages",
+              "Desserts",
+              "Italian",
+              "Turkish"
+            ],
+            "avgRating": 4.2,
+            "parentId": "468195",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 50,
+              "lastMileTravel": 11.1,
+              "serviceability": "SERVICEABLE",
+              "slaString": "50 mins",
+              "lastMileTravelString": "11.1 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:30:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                  "description": "OnlyOnSwiggy"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "OnlyOnSwiggy",
+                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                      }
+                    }
+                  ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "₹150 OFF",
+              "subHeader": "ABOVE ₹399",
+              "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/istah-shawarmas-dr-rajendra-prasad-road-gandhipuram-coimbatore-654259",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "654253",
+            "name": "Gobble: Pastas & Burgers",
+            "cloudinaryImageId": "df5118be546e687f45758da0433a1649",
+            "locality": "Ganapathy Village",
+            "areaName": "Gandhipuram",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+              "Burgers",
+              "Pastas",
+              "American",
+              "Continental",
+              "Snacks"
+            ],
+            "avgRating": 4.2,
+            "parentId": "391931",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 47,
+              "lastMileTravel": 11.1,
+              "serviceability": "SERVICEABLE",
+              "slaString": "47 mins",
+              "lastMileTravelString": "11.1 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:30:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                  "description": "OnlyOnSwiggy"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "OnlyOnSwiggy",
+                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                      }
+                    }
+                  ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "60% OFF",
+              "subHeader": "UPTO ₹100"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/gobble-pastas-and-burgers-ganapathy-village-gandhipuram-coimbatore-654253",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "69592",
+            "name": "SK Supercook",
+            "cloudinaryImageId": "iskv0nc46sjc0cskvjup",
+            "locality": "Marudhamalai Road",
+            "areaName": "Vadavalli",
+            "costForTwo": "₹200 for two",
+            "cuisines": ["North Indian"],
+            "avgRating": 4.3,
+            "parentId": "8364",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 43,
+              "lastMileTravel": 11.7,
+              "serviceability": "SERVICEABLE",
+              "slaString": "43 mins",
+              "lastMileTravelString": "11.7 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 16:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/sk-supercook-marudhamalai-road-vadavalli-coimbatore-69592",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "194296",
+            "name": "LunchBox - Meals and Thalis",
+            "cloudinaryImageId": "xrmshencqbjkbamgb2sj",
+            "locality": "Poombugar Nagar Rd",
+            "areaName": "Saravanamapatti Village",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+              "Biryani",
+              "North Indian",
+              "Punjabi",
+              "Healthy Food",
+              "Desserts",
+              "Beverages"
+            ],
+            "avgRating": 4.5,
+            "parentId": "4925",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 40,
+              "lastMileTravel": 10,
+              "serviceability": "SERVICEABLE",
+              "slaString": "40 mins",
+              "lastMileTravelString": "10.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:59:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "ITEMS",
+              "subHeader": "AT ₹159"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-poombugar-nagar-rd-saravanamapatti-village-coimbatore-194296",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "194273",
+            "name": "Faasos - Wraps, Rolls & Shawarma",
+            "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
+            "locality": "Poombugar Nagar Rd",
+            "areaName": "Saravanamapatti Village",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+              "Kebabs",
+              "Fast Food",
+              "Snacks",
+              "North Indian",
+              "American",
+              "Healthy Food",
+              "Desserts",
+              "Beverages"
+            ],
+            "avgRating": 4.4,
+            "parentId": "21809",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 39,
+              "lastMileTravel": 10,
+              "serviceability": "SERVICEABLE",
+              "slaString": "39 mins",
+              "lastMileTravelString": "10.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:59:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "₹125 OFF",
+              "subHeader": "ABOVE ₹299",
+              "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/faasos-wraps-rolls-and-shawarma-poombugar-nagar-rd-saravanamapatti-village-coimbatore-194273",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "51014",
+            "name": "A2B - Adyar Ananda Bhavan",
+            "cloudinaryImageId": "jlqmqtcbgxu3ype0idyq",
+            "locality": "Bharathiyar Road",
+            "areaName": "Gandhipuram",
+            "costForTwo": "₹300 for two",
+            "cuisines": ["South Indian", "North Indian", "Sweets", "Chinese"],
+            "avgRating": 4.5,
+            "veg": true,
+            "parentId": "22",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 57,
+              "lastMileTravel": 12.1,
+              "serviceability": "SERVICEABLE",
+              "slaString": "57 mins",
+              "lastMileTravelString": "12.1 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 22:45:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                  "description": "OnlyOnSwiggy"
+                },
+                {
+                  "imageId": "v1695133679/badges/Pure_Veg111.png",
+                  "description": "pureveg"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "OnlyOnSwiggy",
+                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                      }
+                    },
+                    {
+                      "attributes": {
+                        "description": "pureveg",
+                        "imageId": "v1695133679/badges/Pure_Veg111.png"
+                      }
+                    }
+                  ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "₹125 OFF",
+              "subHeader": "ABOVE ₹199",
+              "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/a2b-adyar-ananda-bhavan-bharathiyar-road-gandhipuram-coimbatore-51014",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "50374",
+            "name": "Dindigul Thalappakatti",
+            "cloudinaryImageId": "zf7sbwdhivqxkkz0irs3",
+            "locality": "Ram Nagar",
+            "areaName": "Ram Nagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": ["Biryani", "Barbecue", "South Indian", "Chinese"],
+            "avgRating": 4.2,
+            "parentId": "332",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 43,
+              "lastMileTravel": 10.9,
+              "serviceability": "SERVICEABLE",
+              "slaString": "43 mins",
+              "lastMileTravelString": "10.9 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-25 01:00:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/dindigul-thalappakatti-ram-nagar-coimbatore-50374",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "194294",
+            "name": "The Good Bowl",
+            "cloudinaryImageId": "6e04be27387483a7c00444f8e8241108",
+            "locality": "Poombugar Nagar Rd",
+            "areaName": "Saravanamapatti Village",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Biryani",
+              "North Indian",
+              "Pastas",
+              "Punjabi",
+              "Desserts",
+              "Beverages"
+            ],
+            "avgRating": 4.3,
+            "parentId": "7918",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 37,
+              "lastMileTravel": 10,
+              "serviceability": "SERVICEABLE",
+              "slaString": "37 mins",
+              "lastMileTravelString": "10.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 23:59:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "₹175 OFF",
+              "subHeader": "ABOVE ₹799",
+              "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-good-bowl-poombugar-nagar-rd-saravanamapatti-village-coimbatore-194294",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "56505",
+            "name": "McDonald's",
+            "cloudinaryImageId": "bb7ae131544c7d37e10fc5faf76f09d6",
+            "locality": "Prozone Mall",
+            "areaName": "Ganapathy",
+            "costForTwo": "₹400 for two",
+            "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+            "avgRating": 4.3,
+            "parentId": "630",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 39,
+              "lastMileTravel": 11.6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "39 mins",
+              "lastMileTravelString": "11.6 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-24 21:45:00",
+              "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+              }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+          },
+          "analytics": {},
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/mcdonalds-prozone-mall-ganapathy-coimbatore-56505",
+            "type": "WEBLINK"
+          }
+        }
+      ],
+      "theme": "Restaurant_Group_WebView_SEO_PB_Theme",
+      "widgetType": "WIDGET_TYPE_POPULAR_BRANDS",
+      "style": {
+        "width": {
+          "type": "TYPE_RELATIVE",
+          "value": 0.41111112,
+          "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+        },
+        "height": {
+          "type": "TYPE_RELATIVE",
+          "value": 0.7027027,
+          "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+        },
+        "layoutAlignment": "LAYOUT_ALIGNMENT_LEFT"
+      },
+      "collectionId": "84124"
+    }
+  }
+}

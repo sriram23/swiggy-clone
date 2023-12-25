@@ -1,0 +1,16 @@
+.best-offer-card {
+    flex-shrink: 0;
+    width: 27rem;
+    height: 15rem;
+    margin-right: 1rem;
+    .best-offer-link {
+        cursor: pointer;
+        .best-offer-image {
+            width: 100%;
+            margin: unset;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
