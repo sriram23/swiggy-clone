@@ -2,9 +2,10 @@
   "name": "food-app",
   "version": "1.0.0",
   "description": "Food Delivery App",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "firebase deploy --only hosting:swiggy-clone-23",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sriram23",
