@@ -13,26 +13,48 @@ import DOWN_ARROW_PRIMARY from "../../../../assets/down-arrow-1.png";
 
 import "./header.scss";
 
-const Header = () => {
+const Header = ({
+  title = "",
+  location = true,
+  search = true,
+  offers = true,
+  help = true,
+  signIn = true,
+  cart = true,
+  onLogoClick,
+  onLocationClick,
+  onSearchClick,
+  onOfferClick,
+  onHelpClick,
+  onSigninClick,
+  onCartClick
+}) => {
   return (
     <div className="header-container">
       <div className="header-content">
         <div className="logo-container">
           <figure className="logo">
-            <img src={SWIGGY_LOGO} alt="swiggy logo" />
+            <img src={SWIGGY_LOGO} alt="swiggy logo" onClick={onLogoClick}/>
           </figure>
           <div className="location-section">
-            <button id="other-button">Other</button>
-            <p className="location">Thoppampatti Pirivu, K.Vadamadurai, ...</p>
-            <button id="location-dropdown">
-              <figure className="drop-down-icon">
-                <img src={DOWN_ARROW_PRIMARY} alt="drop down" />
-              </figure>
-            </button>
+            {location && (
+              <>
+                <button id="other-button" onClick={onLocationClick}>HOME</button>
+                <p className="location" onClick={onLocationClick}>
+                  Thoppampatti Pirivu, K.Vadamadurai, ...
+                </p>
+                <button id="location-dropdown" onClick={onLocationClick}>
+                  <figure className="drop-down-icon">
+                    <img src={DOWN_ARROW_PRIMARY} alt="drop down" />
+                  </figure>
+                </button>
+              </>
+            )}
+            {title.length > 0 && <h1 className="header-title">{title}</h1>}
           </div>
         </div>
         <nav className="nav-section">
-          <button className="nav-button">
+          {search && <button className="nav-button" onClick={onSearchClick}>
             <div className="icon-container">
               <figure className="nav-icon">
                 <img src={SEARCH} alt="search icon" />
@@ -42,8 +64,8 @@ const Header = () => {
               </figure>
             </div>
             <p className="nav-text">Search</p>
-          </button>
-          <button className="nav-button">
+          </button>}
+          {offers && <button className="nav-button" onClick={onOfferClick}>
             <div className="icon-container">
               <figure className="nav-icon">
                 <img src={DISCOUNT} alt="offer icon" />
@@ -55,8 +77,8 @@ const Header = () => {
             <p className="nav-text">
               Offers<sup className="super-script">NEW</sup>
             </p>
-          </button>
-          <button className="nav-button">
+          </button>}
+          {help && <button className="nav-button" onClick={onHelpClick}>
             <div className="icon-container">
               <figure className="nav-icon">
                 <img src={LIFEBUOY} alt="offer icon" />
@@ -66,8 +88,8 @@ const Header = () => {
               </figure>
             </div>
             <p className="nav-text">Help</p>
-          </button>
-          <button className="nav-button">
+          </button>}
+          {signIn && <button className="nav-button" onClick={onSigninClick}>
             <div className="icon-container">
               <figure className="nav-icon">
                 <img src={ACCOUNT} alt="offer icon" />
@@ -77,8 +99,8 @@ const Header = () => {
               </figure>
             </div>
             <p className="nav-text">Sign In</p>
-          </button>
-          <button className="nav-button">
+          </button>}
+          {cart && <button className="nav-button" onClick={onCartClick}>
             <div className="icon-container">
               <figure className="nav-icon">
                 <img src={SHOPPING_CART} alt="offer icon" />
@@ -88,7 +110,7 @@ const Header = () => {
               </figure>
             </div>
             <p className="nav-text">Cart</p>
-          </button>
+          </button>}
         </nav>
       </div>
     </div>

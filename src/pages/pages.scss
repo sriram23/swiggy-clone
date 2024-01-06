@@ -1,0 +1,63 @@
+@import "colors";
+html, body {
+  margin: unset;
+  padding: unset;
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+  .header-section {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 999;
+  }
+  .main-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 90rem;
+    height: 100%;
+    @media screen and (max-width:1440) {
+      width: 90%;
+    }
+    .checkout-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      .checkout-image {
+        width: 19rem;
+        img {
+          width: 100%;
+        }
+      }
+      .checkout-title {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin:0;
+        padding: 0;
+      }
+      .checkout-text {
+        color: $text-dull;
+        padding:0;
+        margin-bottom: 2rem;
+        font-size: 0.75rem;
+      }
+      .checkout-button {
+        border: unset;
+        color: $white;
+        background: $primary-color;
+        padding: 0.75rem 1.5rem;
+        font-weight: 800;
+        cursor: pointer;
+      }
+    }
+  }
+}
