@@ -1,6 +1,5 @@
 import TopRestaurantsCard from '../../atoms/top-restaurants-card/top-restaurants-card';
 import MASTER from '../../../static/master.json'
-import CarouselButton from '../../atoms/carousel-button/carousel-button';
 import './restaurants.scss'
 const Restaurants = () => {
     const TITLE = MASTER.data.cards[3];

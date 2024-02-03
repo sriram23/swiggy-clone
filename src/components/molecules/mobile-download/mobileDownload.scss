@@ -1,0 +1,23 @@
+.mobile-download-container {
+    display: flex;
+    background: #f0f0f5;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    .download-title {
+        width: 40rem;
+        margin: 0 1rem;
+        color: #282C3F;
+        font-size: 2rem;
+    }
+    .download-button {
+        margin: 0.5rem;
+        width: 15rem;
+        background: unset;
+        border: unset;
+        cursor: pointer;
+        img {
+            width: 100%;
+        }
+    }
+}

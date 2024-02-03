@@ -7,6 +7,9 @@ import TopRestaurants from "../../components/molecules/top-restaurants/top-resta
 import '../pages.scss'
 import Restaurants from "../../components/molecules/restaurants/restaurants";
 
+import MASTER from '../../static/master.json'
+import NearMeLinks from "../../components/molecules/nearMeLinks/nearMeLinks";
+import MobileDownload from "../../components/molecules/mobile-download/mobileDownload";
 const Home = () => {
     const navigate = useNavigate()
     const onHomeClick = () => {
@@ -20,11 +23,33 @@ const Home = () => {
             <Header onLogoClick={onHomeClick} onCartClick={onCartClick}/>
         </div>
         <div className="main-section">
-            <BestOffer/>
-            <FoodItems/>
-            <TopRestaurants/>
-            <Restaurants/>
+            {/* TODO: Need to work on props for the first 3 sections */}
+            {MASTER.data.cards.map(card => {
+                switch (card.card.card.id) {
+                    case "topical_banner":
+                        return <BestOffer/>
+                    case "whats_on_your_mind":
+                        return <FoodItems/>
+                    case "top_brands_for_you":
+                        return <TopRestaurants/>
+                    case "restaurant_grid_listing":
+                        return <Restaurants/>
+                    case "restaurant_near_me_links":
+                        return <NearMeLinks data={card.card.card} />
+                    default:
+                        // return <p>id: {card.card.card.id}</p>
+                        return
+                }
+            })}
         </div>
+        {MASTER.data.cards.map(card => {
+            switch (card.card.card.id) {
+                case "app_install_links":
+                        return <MobileDownload data={card.card.card}/>
+                default:
+                        return
+            }
+        })}
         <InProgress/>
     </div>
 }
