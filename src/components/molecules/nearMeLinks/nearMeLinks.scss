@@ -5,7 +5,7 @@
     .near-me-links-section {
         display: flex;
         flex-wrap: wrap;
-        .near-me-links-button-container {
+        .near-me-links-button-container, .show-more-button-container {
             border: 1px solid #02060C0F;
             min-width: 20rem;
             flex: 1;

@@ -1,19 +1,34 @@
-import "./nearMeLinks.scss"
-const NearMeLinks = ({data}) => {
-    const redirect = (link) => {
-        window.open(link, '_self')
+import { useEffect, useState } from "react";
+import "./nearMeLinks.scss";
+const NearMeLinks = ({ data }) => {
+  const [showMore, setShowMore] = useState(data.brands.length < 11);
+  const [items, setItems] = useState(data.brands.slice(0, 11));
+  const redirect = (link) => {
+    window.open(link, "_self");
+  };
+  useEffect(() => {
+    if (!showMore) {
+      setItems(data.brands.slice(0, 11));
+    } else {
+      setItems(data.brands);
     }
-    return (
-        <div className="near-me-links-container">
-        <h2>{data.title}</h2>
-        <div className="near-me-links-section">
-        {data.brands.map(brand =>(
-            <div className="near-me-links-button-container">
-                <button onClick={() => redirect(brand.link)}>{brand.text}</button>
-            </div>
+  }, [data.brands, showMore]);
+  return (
+    <div className="near-me-links-container">
+      <h2>{data.title}</h2>
+      <div className="near-me-links-section">
+        {items.map((brand) => (
+          <div className="near-me-links-button-container">
+            <button onClick={() => redirect(brand.link)}>{brand.text}</button>
+          </div>
         ))}
-        </div>
-        </div>
-    )
-}
-export default NearMeLinks
+        {!showMore && (
+          <div className="show-more-button-container">
+            <button onClick={() => setShowMore(true)}>Show More ⯆</button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+export default NearMeLinks;
