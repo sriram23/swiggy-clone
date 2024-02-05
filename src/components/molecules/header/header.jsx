@@ -12,6 +12,8 @@ import HOVER_SHOPPING_CART from "../../../../assets/Shopping cart-1.png";
 import DOWN_ARROW_PRIMARY from "../../../../assets/down-arrow-1.png";
 
 import "./header.scss";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Header = ({
   title = "",
@@ -21,6 +23,8 @@ const Header = ({
   help = true,
   signIn = true,
   cart = true,
+  lat = 0,
+  lon = 0,
   onLogoClick,
   onLocationClick,
   onSearchClick,
@@ -29,6 +33,17 @@ const Header = ({
   onSigninClick,
   onCartClick
 }) => {
+  const [locationString, setLocationString] = useState("Location Not found!")
+  const url = `https://www.swiggy.com/dapi/misc/address-recommend?latlng=${lat}%2C${lon}`
+  useEffect(() => {
+    setLocation();
+    console.log("setLocationString", lat, lon)
+  }, [lat, lon])
+  const setLocation = async () => {
+    const res = await axios.get('https://corsproxy.org/?' + encodeURIComponent(url))
+    const location = res.data && res.data.data && res.data.data[0].formatted_address
+    setLocationString(location)
+  }
   return (
     <div className="header-container">
       <div className="header-content">
@@ -41,7 +56,7 @@ const Header = ({
               <>
                 <button id="other-button" onClick={onLocationClick}>HOME</button>
                 <p className="location" onClick={onLocationClick}>
-                  Thoppampatti Pirivu, K.Vadamadurai, ...
+                  {locationString && (locationString.length < 30 ? locationString : locationString.slice(0, 30)+"...")}
                 </p>
                 <button id="location-dropdown" onClick={onLocationClick}>
                   <figure className="drop-down-icon">
