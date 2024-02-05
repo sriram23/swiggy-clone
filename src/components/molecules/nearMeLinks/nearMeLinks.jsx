@@ -17,8 +17,8 @@ const NearMeLinks = ({ data }) => {
     <div className="near-me-links-container">
       <h2>{data.title}</h2>
       <div className="near-me-links-section">
-        {items.map((brand) => (
-          <div className="near-me-links-button-container">
+        {items.map((brand, i) => (
+          <div key={i} className="near-me-links-button-container">
             <button onClick={() => redirect(brand.link)}>{brand.text}</button>
           </div>
         ))}

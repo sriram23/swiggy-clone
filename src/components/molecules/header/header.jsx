@@ -37,7 +37,6 @@ const Header = ({
   const url = `https://www.swiggy.com/dapi/misc/address-recommend?latlng=${lat}%2C${lon}`
   useEffect(() => {
     setLocation();
-    console.log("setLocationString", lat, lon)
   }, [lat, lon])
   const setLocation = async () => {
     const res = await axios.get('https://corsproxy.org/?' + encodeURIComponent(url))

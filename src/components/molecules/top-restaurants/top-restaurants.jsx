@@ -2,8 +2,8 @@ import TOP_RESTAURANTS from "../../../static/top-restaurants.json";
 import CarouselButton from "../../atoms/carousel-button/carousel-button";
 import TopRestaurantsCard from "../../atoms/top-restaurants-card/top-restaurants-card";
 import "./top-restaurants.scss";
-const TopRestaurants = () => {
-    const scrollLeft = () =>{
+const TopRestaurants = ({data}) => { 
+  const scrollLeft = () =>{
         const scrollElement = document.getElementById('restaurant-section');
         scrollElement.scrollLeft -= 1000;
     }
@@ -18,13 +18,14 @@ const TopRestaurants = () => {
         <CarouselButton onLeftClick={scrollLeft} onRightClick={scrollRight}/>
       </div>
       <div id="restaurant-section" className="restaurant-section">
-        {TOP_RESTAURANTS &&
-          TOP_RESTAURANTS.gridElements &&
-          TOP_RESTAURANTS.gridElements.infoWithStyle &&
-          TOP_RESTAURANTS.gridElements.infoWithStyle.restaurants &&
-          TOP_RESTAURANTS.gridElements.infoWithStyle.restaurants.map(
+        {data &&
+          data.gridElements &&
+          data.gridElements.infoWithStyle &&
+          data.gridElements.infoWithStyle.restaurants &&
+          data.gridElements.infoWithStyle.restaurants.map(
             (restaurant) => (
               <TopRestaurantsCard
+                key={restaurant.info.id}
                 image={
                   "https://media-assets.swiggy.com/" +
                   restaurant.info.cloudinaryImageId

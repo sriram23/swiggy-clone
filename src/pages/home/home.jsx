@@ -28,23 +28,19 @@ const Home = () => {
         fetchLocation()
     }, [])
     useEffect(() => {
-        console.log("Loation ---> ", lat, lon)
         fetchData()
     },[lat, lon])
     const fetchData = async () => {
-        console.log("Fetching data...", `https://www.swiggy.com/dapi/restaurants/list/v5?lat=${lat}&lng=${lon}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`)
         const res = await axios.get('https://corsproxy.org/?' + encodeURIComponent(`https://www.swiggy.com/dapi/restaurants/list/v5?lat=${lat}&lng=${lon}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`))
         setData(res.data)
     }
     const fetchLocation =  () => {
-        console.log("Fetching location...")
         try{
         navigator.geolocation.getCurrentPosition((position) => {
           setLat(position.coords.latitude);
           setLon(position.coords.longitude);
           return;
         });
-        console.log("Location: ", lat, lon)
       }
       catch(err) {
         console.error("Error fetching location: ", err)
@@ -60,15 +56,15 @@ const Home = () => {
             {data && data.data && data.data.cards.map(card => {
                 switch (card.card.card.id) {
                     case "topical_banner":
-                        return <BestOffer/>
+                        return <BestOffer key={card.card.card.id} data={card.card.card}/>
                     case "whats_on_your_mind":
-                        return <FoodItems/>
+                        return <FoodItems key={card.card.card.id} data={card.card.card}/>
                     case "top_brands_for_you":
-                        return <TopRestaurants/>
+                        return <TopRestaurants key={card.card.card.id} data={card.card.card}/>
                     case "restaurant_grid_listing":
-                        return <Restaurants/>
+                        return <Restaurants key={card.card.card.id} data={card.card.card}/>
                     case "restaurant_near_me_links":
-                        return <NearMeLinks data={card.card.card} />
+                        return <NearMeLinks key={card.card.card.id} data={card.card.card} />
                     default:
                         // return <p>id: {card.card.card.id}</p>
                         return
@@ -78,7 +74,7 @@ const Home = () => {
         {MASTER.data.cards.map(card => {
             switch (card.card.card.id) {
                 case "app_install_links":
-                        return <MobileDownload data={card.card.card}/>
+                        return <MobileDownload key={card.card.card.id} data={card.card.card}/>
                 default:
                         return
             }

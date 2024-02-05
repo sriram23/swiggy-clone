@@ -3,7 +3,7 @@ import FOOD_ITEMS from "../../../static/whats-on-your-mind.json";
 import CarouselButton from "../../atoms/carousel-button/carousel-button";
 import FoodItemsCard from "../../atoms/food-items-card/food-items-card";
 import "./food-items.scss";
-const FoodItems = () => {
+const FoodItems = ({data}) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [disableLeft, setDisableLeft] = useState(true);
   const [disableRight, setDisableRight] = useState(false)
@@ -30,7 +30,7 @@ const FoodItems = () => {
   return (
     <div className="food-items-container">
       <div className="title-container">
-        <h2>{FOOD_ITEMS.title}</h2>
+        <h2>{data.header.title}</h2>
         <CarouselButton
           onLeftClick={scrollLeft}
           onRightClick={scrollRight}
@@ -40,7 +40,7 @@ const FoodItems = () => {
         />
       </div>
       <div id="food-items-section" className="food-items-section">
-        {FOOD_ITEMS && FOOD_ITEMS.imageGridCards && FOOD_ITEMS.imageGridCards.info && FOOD_ITEMS.imageGridCards.info.map((fooditem) => (
+        {data && data.imageGridCards && data.imageGridCards.info && data.imageGridCards.info.map((fooditem) => (
           <FoodItemsCard
             key={fooditem.id}
             image={"http://media-assets.swiggy.com/" + fooditem.imageId}

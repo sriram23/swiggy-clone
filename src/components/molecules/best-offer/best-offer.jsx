@@ -3,7 +3,7 @@ import BEST_OFFERS from "../../../static/best-offer.json";
 
 import "./best-offer.scss";
 import CarouselButton from "../../atoms/carousel-button/carousel-button";
-const BestOffer = () => {
+const BestOffer = ({data}) => {
   const scrollLeft = () =>{
     const scrollElement = document.getElementById('best-offer-section');
     scrollElement.scrollLeft -= 1000;

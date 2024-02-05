@@ -1,7 +1,7 @@
 import TopRestaurantsCard from '../../atoms/top-restaurants-card/top-restaurants-card';
 import MASTER from '../../../static/master.json'
 import './restaurants.scss'
-const Restaurants = () => {
+const Restaurants = ({data}) => {
     const TITLE = MASTER.data.cards[3];
     const ACTIONS = MASTER.data.cards[4];
     const RESTAURANTS = MASTER.data.cards[5];
@@ -19,7 +19,7 @@ const Restaurants = () => {
         </div>
         <div className="restaurant-container" id="restaurant-container">
         {
-            RESTAURANTS.card.card.gridElements.infoWithStyle.restaurants.map((restaurant) =>(
+            data.gridElements.infoWithStyle.restaurants.map((restaurant) =>(
                 <TopRestaurantsCard
                 image={
                   "https://media-assets.swiggy.com/" +
