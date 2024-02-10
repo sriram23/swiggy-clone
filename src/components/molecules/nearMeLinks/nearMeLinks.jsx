@@ -1,18 +1,18 @@
 import { useEffect, useState } from "react";
 import "./nearMeLinks.scss";
 const NearMeLinks = ({ data }) => {
-  const [showMore, setShowMore] = useState(data.brands.length < 11);
-  const [items, setItems] = useState(data.brands.slice(0, 11));
+  const [items, setItems] = useState([]);
+  const [showMore, setShowMore] = useState(!(data.brands && data.brands.length > 11) && !(data.cities && data.cities.length > 11));
   const redirect = (link) => {
     window.open(link, "_self");
   };
   useEffect(() => {
     if (!showMore) {
-      setItems(data.brands.slice(0, 11));
+      setItems((data.brands && data.brands.slice(0, 11)) || (data.cities && data.cities.slice(0, 11)));
     } else {
-      setItems(data.brands);
+      setItems(data.brands || data.cities);
     }
-  }, [data.brands, showMore]);
+  }, [data.brands, showMore, data.cities]);
   return (
     <div className="near-me-links-container">
       <h2>{data.title}</h2>

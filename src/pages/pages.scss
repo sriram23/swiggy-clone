@@ -2,8 +2,11 @@
 html, body {
   margin: unset;
   padding: unset;
+  display: flex;
+  flex-direction: column;
 }
 .home-container {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -14,6 +14,7 @@ import MobileDownload from "../../components/molecules/mobile-download/mobileDow
 import { useEffect } from "react";
 import axios from "axios";
 import Footer from "../../components/molecules/footer/footer";
+import LocationUnservicable from "../../components/molecules/location-unservicable/location-unservicable";
 const Home = () => {
     const [lat, setLat] = useState(0)
     const [lon, setLon] = useState(0)
@@ -54,7 +55,7 @@ const Home = () => {
         </div>
         <div className="main-section">
             {/* TODO: Need to work on props for the first 3 sections */}
-            {data && data.data && data.data.cards.map(card => {
+            {data && data.data && data.data.cards && data.data.cards.map(card => {
                 switch (card.card.card.id) {
                     case "topical_banner":
                         return <BestOffer key={card.card.card.id} data={card.card.card}/>
@@ -65,7 +66,10 @@ const Home = () => {
                     case "restaurant_grid_listing":
                         return <Restaurants key={card.card.card.id} data={card.card.card}/>
                     case "restaurant_near_me_links":
+                    case "popular_cities":
                         return <NearMeLinks key={card.card.card.id} data={card.card.card} />
+                    case "swiggy_not_present":
+                        return <LocationUnservicable key={card.card.card.id} data={card.card.card}/>
                     default:
                         // return <p>id: {card.card.card.id}</p>
                         return
@@ -83,7 +87,6 @@ const Home = () => {
                         return
             }
         })}
-        {/* <InProgress/> */}
     </div>
 }
 

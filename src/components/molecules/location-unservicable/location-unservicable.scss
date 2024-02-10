@@ -1,0 +1,16 @@
+.location-unservicable-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+    .unavailable-image {
+        width: 15rem;
+        img {
+            width: 100%;
+        }
+    }
+    .unavailable-text {
+        text-align: center;
+        max-width: 25rem;
+    }
+}
