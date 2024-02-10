@@ -13,6 +13,7 @@ import NearMeLinks from "../../components/molecules/nearMeLinks/nearMeLinks";
 import MobileDownload from "../../components/molecules/mobile-download/mobileDownload";
 import { useEffect } from "react";
 import axios from "axios";
+import Footer from "../../components/molecules/footer/footer";
 const Home = () => {
     const [lat, setLat] = useState(0)
     const [lon, setLon] = useState(0)
@@ -74,12 +75,15 @@ const Home = () => {
         {MASTER.data.cards.map(card => {
             switch (card.card.card.id) {
                 case "app_install_links":
-                        return <MobileDownload key={card.card.card.id} data={card.card.card}/>
+                    return <MobileDownload key={card.card.card.id} data={card.card.card}/>
+
+                case "footer_content":
+                    return <Footer key={card.card.card.id} data={card.card.card}/>
                 default:
                         return
             }
         })}
-        <InProgress/>
+        {/* <InProgress/> */}
     </div>
 }
 

@@ -1,0 +1,69 @@
+{
+    "title": "Swiggy",
+    "copyright": "© 2023 Bundl Technologies Pvt. Ltd",
+    "data": [
+        {
+            "title": "Company",
+            "links": [
+                {
+                    "string": "About",
+                    "link": "https://www.swiggy.com/about"
+                },
+                {
+                    "string": "Careers",
+                    "link": "https://www.swiggy.com/careers"
+                },
+                {
+                    "string": "Team",
+                    "link": "https://www.swiggy.com/team"
+                },
+                {
+                    "string": "Swiggy One",
+                    "link": "https://www.swiggy.com/swiggy-super"
+                },
+                {
+                    "string": "Swiggy Instamart",
+                    "link": "https://www.swiggy.com/instamart"
+                },
+                {
+                    "string": "Swiggy Genie",
+                    "link": "https://www.swiggy.com/swiggy-genie"
+                }
+            ]
+        },
+        {
+            "title": "Contact us",
+            "links": [
+                {
+                    "string": "Help & Support",
+                    "link": "https://www.swiggy.com/support"
+                },
+                {
+                    "string": "Partner with us",
+                    "link": "https://partner-with-us.swiggy.com/onboard#/swiggy"
+                },
+                {
+                    "string": "Ride with us",
+                    "link": "https://ride.swiggy.com/"
+                }
+            ]
+        },
+        {
+            "title": "Legal",
+            "links": [
+                {
+                    "string": "Terms & Conditions",
+                    "link": "https://www.swiggy.com/terms-and-conditions"
+                },
+                {
+                    "string": "Cookie Policy",
+                    "link": "https://www.swiggy.com/cookie-policy"
+                },
+                {
+                    "string": "Privacy Policy",
+                    "link": "https://www.swiggy.com/privacy-policy"
+                }
+            ]
+        }
+    ]
+}

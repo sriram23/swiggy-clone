@@ -1,0 +1,64 @@
+.footer-section {
+    width: 100%;
+  .footer-container {
+    width: 100%;
+    min-height: 459px;
+    display: grid;
+    grid-template-columns: 16rem 16rem 16rem 16rem;
+    gap: 2rem;
+    justify-content: center;
+    background: rgb(2, 6, 12);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1rem 0;
+    @for $i from 1 through 4 {
+      #col-#{$i} {
+        .footer-items {
+          display: flex;
+          flex-direction: column;
+          a {
+            margin-bottom: 0.75rem;
+            font-size: 14px;
+            text-decoration: none;
+            color: inherit;
+            padding: unset;
+          }
+        }
+        p {
+          font-size: 14px;
+        }
+        h2,
+        h3 {
+          color: rgba(255, 255, 255, 0.92);
+        }
+      }
+    }
+    #col-1 {
+      .title-container {
+        display: flex;
+        justify-content: flex-start;
+        margin: 1rem 0;
+        h2 {
+          font-size: 24px;
+          margin: unset;
+        }
+        img {
+          margin-right: 1rem;
+          padding: unset;
+        }
+      }
+    }
+    #col-4 {
+      .more-cities {
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        font-size: 14px;
+        width: 6rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.25rem;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
