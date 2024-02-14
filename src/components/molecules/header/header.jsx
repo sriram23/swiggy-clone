@@ -10,10 +10,12 @@ import HOVER_LIFEBUOY from "../../../../assets/Lifebuoy-1.png";
 import HOVER_SEARCH from "../../../../assets/Search-1.png";
 import HOVER_SHOPPING_CART from "../../../../assets/Shopping cart-1.png";
 import DOWN_ARROW_PRIMARY from "../../../../assets/down-arrow-1.png";
+import SEARCH from "../../../../assets/search-icon.png";
 
 import "./header.scss";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import OptionsCard from "../../atoms/options-card/options-card";
 
 const Header = ({
   title = "",
@@ -31,7 +33,8 @@ const Header = ({
   onOfferClick,
   onHelpClick,
   onSigninClick,
-  onCartClick
+  onCartClick,
+  changeHeader
 }) => {
   const [locationString, setLocationString] = useState("Location Not found!")
   const url = `https://www.swiggy.com/dapi/misc/address-recommend?latlng=${lat}%2C${lon}`
@@ -45,8 +48,18 @@ const Header = ({
   }
   return (
     <div className="header-container">
+      {changeHeader ?
       <div className="header-content">
-        <div className="logo-container">
+      <OptionsCard/>
+      <div className="search-container">
+        <input className="search-input" placeholder="Search for restaurant and food"></input>
+        <div className="search-icon">
+          <img src={SEARCH} alt="Search Icon" />
+        </div>
+      </div>
+    </div>:
+      <div className="header-content">
+      <div className="logo-container">
           <figure className="logo">
             <img src={SWIGGY_LOGO} alt="swiggy logo" onClick={onLogoClick}/>
           </figure>
@@ -127,6 +140,7 @@ const Header = ({
           </button>}
         </nav>
       </div>
+      }
     </div>
   );
 };

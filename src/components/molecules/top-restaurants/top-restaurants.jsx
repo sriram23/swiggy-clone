@@ -14,7 +14,7 @@ const TopRestaurants = ({data}) => {
   return (
     <div className="top-restaurant-container">
       <div className="heading-container">
-        <h2>{TOP_RESTAURANTS.title}</h2>
+        <h2>{data.header && data.header.title}</h2>
         <CarouselButton onLeftClick={scrollLeft} onRightClick={scrollRight}/>
       </div>
       <div id="restaurant-section" className="restaurant-section">

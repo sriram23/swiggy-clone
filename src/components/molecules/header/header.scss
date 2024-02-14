@@ -126,5 +126,28 @@
         }
       }
     }
+    .search-container {
+      position: relative;
+      .search-input {
+        border: unset;
+        background: #f0f0f5;
+        font-size: 18px;
+        font-weight: 200;
+        width: 360px;
+        height: 56px;
+        padding: 0 0.5rem;
+        border-radius: 12px;
+      }
+      .search-icon {
+        width: 1.5rem;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        background: #f0f0f5;
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
 }

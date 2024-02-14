@@ -19,7 +19,24 @@ const Home = () => {
     const [lat, setLat] = useState(0)
     const [lon, setLon] = useState(0)
     const [data, setData] = useState()
+    const [changeHeaderContent, setChangeHeaderContent] = useState(false)
     const navigate = useNavigate()
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [])
+
+    const handleScroll = () => {
+        console.log("Scroll", window.scrollY)
+        if (window.scrollY > 1000) {
+            setChangeHeaderContent(true)
+        } else {
+            setChangeHeaderContent(false)
+        }
+    }
     const onHomeClick = () => {
         navigate("/")
     }
@@ -51,7 +68,7 @@ const Home = () => {
       };
     return <div className="home-container">
         <div className="header-section">
-            <Header onLogoClick={onHomeClick} onCartClick={onCartClick} lat={lat} lon={lon}/>
+            <Header onLogoClick={onHomeClick} onCartClick={onCartClick} lat={lat} lon={lon} changeHeader={changeHeaderContent}/>
         </div>
         <div className="main-section">
             {/* TODO: Need to work on props for the first 3 sections */}
@@ -70,8 +87,16 @@ const Home = () => {
                         return <NearMeLinks key={card.card.card.id} data={card.card.card} />
                     case "swiggy_not_present":
                         return <LocationUnservicable key={card.card.card.id} data={card.card.card}/>
+                    case "popular_restaurants_title":
+                        sessionStorage.setItem("locationTitle", card.card.card.title)
+                        console.log("Title: ", card.card && card.card.card && card.card.card.title)
+                        return
+                    case "app_install_links":
+                    case "footer_content":
+                        return
                     default:
-                        // return <p>id: {card.card.card.id}</p>
+                        if(card.card && card.card.card && card.card.card["@type"] === "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget")
+                            sessionStorage.setItem("options", JSON.stringify(card.card.card))
                         return
                 }
             })}

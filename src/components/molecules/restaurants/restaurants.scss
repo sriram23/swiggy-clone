@@ -6,26 +6,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.options-container {
-    align-items: center;
-    .filter-select {
-        font-size: 0.75rem;
-        border: 1px solid $text-dull;
-        padding: 0.25rem;
-        border-radius: 5rem;
-    }
-    .face-list {
-        display: flex;
-        .face-chips {
-            font-size: 0.75rem;
-            margin: 0.5rem;
-            cursor: pointer;
-            border: 1px solid $text-dull;
-            padding: 0.25rem;
-            border-radius: 5rem;
-        }
-    }
-}
 .restaurant-container {
     display: flex;
     flex-wrap: wrap;
