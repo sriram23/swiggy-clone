@@ -42,8 +42,9 @@ const Header = ({
     setLocation();
   }, [lat, lon])
   const setLocation = async () => {
-    const res = await axios.get('https://corsproxy.org/?' + encodeURIComponent(url))
-    const location = res.data && res.data.data && res.data.data[0].formatted_address
+    const res = await axios.get('https://api.allorigins.win/get?url=' + encodeURIComponent(url))
+    const content = JSON.parse(res?.data?.contents)
+    const location = content?.data && content?.data[0] && content?.data[0]?.formatted_address
     setLocationString(location)
   }
   return (

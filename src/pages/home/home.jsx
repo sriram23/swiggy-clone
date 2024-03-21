@@ -20,6 +20,7 @@ const Home = () => {
     const [lon, setLon] = useState(0)
     const [data, setData] = useState()
     const [changeHeaderContent, setChangeHeaderContent] = useState(false)
+    const [isLoading, setIsLoading] = useState(false)
     const navigate = useNavigate()
 
     useEffect(() => {
@@ -50,8 +51,10 @@ const Home = () => {
         fetchData()
     },[lat, lon])
     const fetchData = async () => {
-        const res = await axios.get('https://corsproxy.org/?' + encodeURIComponent(`https://www.swiggy.com/dapi/restaurants/list/v5?lat=${lat}&lng=${lon}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`))
-        setData(res.data)
+        setIsLoading(true)
+        const res = await axios.get('https://api.allorigins.win/get?url=' + encodeURIComponent(`https://www.swiggy.com/dapi/restaurants/list/v5?lat=${lat}&lng=${lon}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`))
+        setData(JSON.parse(res.data.contents))
+        setIsLoading(false)
     }
     const fetchLocation =  () => {
         try{
@@ -71,8 +74,9 @@ const Home = () => {
             <Header onLogoClick={onHomeClick} onCartClick={onCartClick} lat={lat} lon={lon} changeHeader={changeHeaderContent}/>
         </div>
         <div className="main-section">
+            {isLoading && <h1>Loading...</h1>}
             {/* TODO: Need to work on props for the first 3 sections */}
-            {data && data.data && data.data.cards && data.data.cards.map(card => {
+            {!isLoading && data && data.data && data.data.cards && data.data.cards.map(card => {
                 switch (card.card.card.id) {
                     case "topical_banner":
                         return <BestOffer key={card.card.card.id} data={card.card.card}/>
